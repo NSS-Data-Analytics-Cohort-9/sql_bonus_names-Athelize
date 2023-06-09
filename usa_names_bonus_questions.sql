@@ -224,10 +224,17 @@ FROM names;
 -- LIMIT 100;
 
 -- 2. How many names are palindromes (i.e. read the same backwards and forwards, such as Bob and Elle)?
+-- 4091 I think.........
 
 -- SELECT REVERSE(name)
 -- FROM names
 -- LIMIT 10;
+
+-- SELECT name
+-- FROM names
+-- WHERE name ILIKE REVERSE(name)
+
+
 
 
 
